@@ -12,6 +12,7 @@
         <p>Fill out the form below and we will get back to you as soon as possible.</p>
         <form action="kirim.php" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="nim" placeholder="Your NIM" required>
             <input type="text" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
